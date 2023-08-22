@@ -17,6 +17,8 @@
 		ECE01F672A93B5A0004C41A0 /* CatGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE01F662A93B5A0004C41A0 /* CatGalleryView.swift */; };
 		ECE01F692A93B6D6004C41A0 /* CatFactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE01F682A93B6D6004C41A0 /* CatFactsManager.swift */; };
 		ECE01F6B2A93CA20004C41A0 /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE01F6A2A93CA20004C41A0 /* CatFact.swift */; };
+		ECE01F6F2A93CEF1004C41A0 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = ECE01F6E2A93CEF1004C41A0 /* Subsonic */; };
+		ECE01F712A93D028004C41A0 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ECE01F702A93D027004C41A0 /* meow.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,7 @@
 		ECE01F662A93B5A0004C41A0 /* CatGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGalleryView.swift; sourceTree = "<group>"; };
 		ECE01F682A93B6D6004C41A0 /* CatFactsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsManager.swift; sourceTree = "<group>"; };
 		ECE01F6A2A93CA20004C41A0 /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
+		ECE01F702A93D027004C41A0 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE01F6F2A93CEF1004C41A0 /* Subsonic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +74,7 @@
 				ECE01F642A93B590004C41A0 /* CatBounceView.swift */,
 				ECE01F662A93B5A0004C41A0 /* CatGalleryView.swift */,
 				ECE01F562A93B555004C41A0 /* Assets.xcassets */,
+				ECE01F702A93D027004C41A0 /* meow.m4a */,
 				ECE01F582A93B555004C41A0 /* Preview Content */,
 			);
 			path = TabbyCat;
@@ -109,6 +114,9 @@
 			dependencies = (
 			);
 			name = TabbyCat;
+			packageProductDependencies = (
+				ECE01F6E2A93CEF1004C41A0 /* Subsonic */,
+			);
 			productName = TabbyCat;
 			productReference = ECE01F4F2A93B553004C41A0 /* TabbyCat.app */;
 			productType = "com.apple.product-type.application";
@@ -137,6 +145,9 @@
 				Base,
 			);
 			mainGroup = ECE01F462A93B553004C41A0;
+			packageReferences = (
+				ECE01F6D2A93CEF1004C41A0 /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
 			productRefGroup = ECE01F502A93B553004C41A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -152,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE01F5A2A93B555004C41A0 /* Preview Assets.xcassets in Resources */,
+				ECE01F712A93D028004C41A0 /* meow.m4a in Resources */,
 				ECE01F572A93B555004C41A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +383,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECE01F6D2A93CEF1004C41A0 /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECE01F6E2A93CEF1004C41A0 /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECE01F6D2A93CEF1004C41A0 /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ECE01F472A93B553004C41A0 /* Project object */;
 }
