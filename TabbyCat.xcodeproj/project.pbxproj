@@ -19,6 +19,8 @@
 		ECE01F6B2A93CA20004C41A0 /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE01F6A2A93CA20004C41A0 /* CatFact.swift */; };
 		ECE01F6F2A93CEF1004C41A0 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = ECE01F6E2A93CEF1004C41A0 /* Subsonic */; };
 		ECE01F712A93D028004C41A0 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ECE01F702A93D027004C41A0 /* meow.m4a */; };
+		ECE01F732A94D3D3004C41A0 /* CatBounceScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE01F722A94D3D3004C41A0 /* CatBounceScreen.storyboard */; };
+		ECE01F752A94D3FF004C41A0 /* CatBounceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE01F742A94D3FF004C41A0 /* CatBounceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		ECE01F682A93B6D6004C41A0 /* CatFactsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsManager.swift; sourceTree = "<group>"; };
 		ECE01F6A2A93CA20004C41A0 /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
 		ECE01F702A93D027004C41A0 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
+		ECE01F722A94D3D3004C41A0 /* CatBounceScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CatBounceScreen.storyboard; sourceTree = "<group>"; };
+		ECE01F742A94D3FF004C41A0 /* CatBounceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				ECE01F6C2A93CC83004C41A0 /* Cat Facts */,
 				ECE01F622A93B587004C41A0 /* CatImagesView.swift */,
 				ECE01F642A93B590004C41A0 /* CatBounceView.swift */,
+				ECE01F722A94D3D3004C41A0 /* CatBounceScreen.storyboard */,
+				ECE01F742A94D3FF004C41A0 /* CatBounceViewController.swift */,
 				ECE01F662A93B5A0004C41A0 /* CatGalleryView.swift */,
 				ECE01F562A93B555004C41A0 /* Assets.xcassets */,
 				ECE01F702A93D027004C41A0 /* meow.m4a */,
@@ -163,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE01F5A2A93B555004C41A0 /* Preview Assets.xcassets in Resources */,
+				ECE01F732A94D3D3004C41A0 /* CatBounceScreen.storyboard in Resources */,
 				ECE01F712A93D028004C41A0 /* meow.m4a in Resources */,
 				ECE01F572A93B555004C41A0 /* Assets.xcassets in Resources */,
 			);
@@ -182,6 +189,7 @@
 				ECE01F612A93B57E004C41A0 /* CatFactsView.swift in Sources */,
 				ECE01F532A93B553004C41A0 /* TabbyCatApp.swift in Sources */,
 				ECE01F6B2A93CA20004C41A0 /* CatFact.swift in Sources */,
+				ECE01F752A94D3FF004C41A0 /* CatBounceViewController.swift in Sources */,
 				ECE01F632A93B587004C41A0 /* CatImagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

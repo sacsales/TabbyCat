@@ -31,6 +31,7 @@ struct CatImagesView: View {
             
             Button ("New cat, please!") {
                 catURL += "1"
+                play(sound: "meow.m4a")
             }
             .buttonStyle(.borderedProminent)
         }
