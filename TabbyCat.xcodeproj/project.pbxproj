@@ -75,9 +75,7 @@
 				ECE01F542A93B553004C41A0 /* ContentView.swift */,
 				ECE01F6C2A93CC83004C41A0 /* Cat Facts */,
 				ECE01F622A93B587004C41A0 /* CatImagesView.swift */,
-				ECE01F642A93B590004C41A0 /* CatBounceView.swift */,
-				ECE01F722A94D3D3004C41A0 /* CatBounceScreen.storyboard */,
-				ECE01F742A94D3FF004C41A0 /* CatBounceViewController.swift */,
+				ECE01F762A95F48E004C41A0 /* Cat Bounce */,
 				ECE01F662A93B5A0004C41A0 /* CatGalleryView.swift */,
 				ECE01F562A93B555004C41A0 /* Assets.xcassets */,
 				ECE01F702A93D027004C41A0 /* meow.m4a */,
@@ -102,6 +100,16 @@
 				ECE01F682A93B6D6004C41A0 /* CatFactsManager.swift */,
 			);
 			path = "Cat Facts";
+			sourceTree = "<group>";
+		};
+		ECE01F762A95F48E004C41A0 /* Cat Bounce */ = {
+			isa = PBXGroup;
+			children = (
+				ECE01F642A93B590004C41A0 /* CatBounceView.swift */,
+				ECE01F722A94D3D3004C41A0 /* CatBounceScreen.storyboard */,
+				ECE01F742A94D3FF004C41A0 /* CatBounceViewController.swift */,
+			);
+			path = "Cat Bounce";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
